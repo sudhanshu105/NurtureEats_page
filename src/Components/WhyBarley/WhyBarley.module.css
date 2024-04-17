@@ -1,0 +1,412 @@
+.overall{
+    margin: 0;
+    padding: 0;
+    /* background-image: url("../../assets/Images/barleybackground.png");
+    background-size:cover; */
+    /* background-color: #6BB77B; */
+    background-color: #2d6439
+}
+
+.upper_heading{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    filter: drop-shadow(4px 4px 4px black);
+    font-weight: bold;
+    
+}
+
+.upper_heading h1{
+    background-image: url("../../assets/Images/barleyimg.jpg");
+    color: transparent;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 3rem;
+}
+
+.history{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px 50px 20px;
+}
+
+.image{
+    width: 35%;
+    height: 350px; 
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+}
+
+.image img{
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 10px rgb(124, 123, 123));
+}
+
+.history_text{
+    width: 70%;
+    /* height: 350px; */
+    height: fit-content;
+    padding: 1.5rem;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background: transparent;
+    /* background-color: rgba(203, 206, 209,0.5);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5); */
+    
+    
+}
+
+.history_text h3{
+    text-align: center;
+    color: rgb(255, 193, 93);
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.history_text p{
+    text-align: center;
+    font-family: Inknut Antiqua;
+    font-size: 1.5rem;
+    color: rgb(210, 204, 204);
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.headandimage{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.headandimage img{
+    height: 80%;
+    width: 80%;
+    /* filter: drop-shadow(1px 1px 1px black); */
+    border-radius: 3px;
+    border: 1px solid transparent; /* Set border color to transparent */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+.nutriotion{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nutriotion_value{
+    width: 300px;
+    height: fit-content;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+}
+
+.nutriotion h1{
+    color: white;
+    /* background-image: linear-gradient(90deg,#03b260,#c84702); */
+    /* -webkit-background-clip: text;
+    background-clip: text; */
+    /* background-clip: text; */
+}
+
+
+.tablebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 3px 3px rgba(33, 106, 40, 0.431);
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    /* background-color: #357c45 !important ; */
+    background-color: rgba(203, 206, 209,0.5);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+
+    
+}
+.tabl{
+    
+    border-collapse: collapse;
+    /* border: 3px solid white; */
+    color: rgb(0, 0, 0);
+    /* background-color: grey; */
+    /* filter: drop-shadow(10px 10px 10px black); */
+    /* padding: 8px; */
+    /* margin-top: 5%; */
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.tablesecond{
+    
+    border-collapse: collapse;
+    /* border: 3px solid white; */
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    /* background-color: rgba(203, 206, 209,0.5);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5); */
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.tablecon{
+    border: 3px solid rgb(28, 49, 32);
+    padding: 8px;
+}
+
+.thhead{
+    height: 50px;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 5%;
+}
+
+.ending{
+    filter: drop-shadow(10px 10px 10px black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+.vertical_text {
+    transform: rotate(90deg);
+    white-space: nowrap;
+    width: 25px; 
+    padding: 0;
+    margin: 0;
+    margin-bottom: 35%;
+    padding-right: 5%;
+  }
+
+.healthhead{
+    /* filter: drop-shadow(1px 1px 1px black); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.health{
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 2px solid black; */
+    
+    /* background-size: cover; */
+}
+
+.heart{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: rgba(203, 206, 209,0.5);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    
+    border-radius: 10px;
+    
+
+}
+
+.diabetes{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: rgba(203, 206, 209,0.5);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    justify-content: flex-end;
+
+}
+
+.weight{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: rgba(203, 206, 209,0.5);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    
+    border-radius: 10px;
+    /* border: 1px solid black; */
+
+}
+
+.digestion{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: rgba(203, 206, 209,0.5);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    justify-content: flex-end;
+
+}
+
+.vitamins{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: rgba(203, 206, 209,0.5);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    
+    border-radius: 10px;
+    /* border: 1px solid black; */
+
+}
+
+.antioxi{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: rgba(203, 206, 209,0.5);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    margin-bottom: 5%;
+    justify-content: flex-end;
+
+}
+
+
+.heart p{
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.diabetes p{
+    color: black;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.weight p{
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.digestion p{
+    color: black;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.vitamins p{
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.antioxi p{
+    color: black;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.heart img{
+    height: 150px;
+    width: 150px;
+    padding: 18px 18px 18px 18px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 5px 5px black);
+}
+
+.diabetes img{
+    height: 150px;
+    width: 150px;
+    padding: 18px 18px 18px 18px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 5px 5px black);
+}
+
+.weight img{
+    height: 150px;
+    width: 150px;
+    padding: 18px 18px 18px 18px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 5px 5px black);
+}
+
+.digestion img{
+    height: 150px;
+    width: 150px;
+    padding: 18px 18px 18px 18px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 5px 5px black);
+}
+
+.vitamins img{
+    height: 150px;
+    width: 150px;
+    padding: 18px 18px 18px 18px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 5px 5px black);
+}
+
+.antioxi img{
+    height: 150px;
+    width: 150px;
+    padding: 18px 18px 18px 18px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 5px 5px black);
+}
+
+.emphasis{
+    color: red;
+}

@@ -1,0 +1,139 @@
+.content{
+    height: fit-content;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aliceblue; */
+    background: linear-gradient(68deg, #757e8e 50%,  #b0bdcb 50%);
+    /* margin-top: 0 !important; */
+}
+
+.headline{
+    text-align: center;
+}
+
+.headline h3{
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+
+}
+
+.maincontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10%;
+    padding-right: 90px;
+
+}
+
+.firstImg{
+    display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 10%;
+}
+
+.pic1{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.pic2{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.pic3{
+    height: 600px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.text{
+    font-family: monospace;
+    max-width: 350px;
+}
+
+.text .heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text p{
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.lastImg{
+    display: flex;
+    height: 600px;
+    width: 400px;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .pic1{
+        height: 150px;
+        width: 110px;
+        margin-bottom: 20px;
+        object-fit: cover;
+        margin-top: 15%;
+    }
+    
+    .pic2{
+        height: 150px;
+        width: 120px;
+        object-fit: cover;
+        margin-bottom: 10%;
+    }
+    
+    .pic3{
+        height: 300px;
+        width: 160px;
+        object-fit: cover;
+        display: none;
+    }
+
+    .headline h3{
+        font-size: 2em;
+        padding-top: 5%;
+    }
+
+    .maincontent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 3%;
+        padding-right: 1px;
+    
+    }
+
+    .lastImg{
+        height: 0;
+    }
+
+    .text .heading{
+        font-size: 20px;
+    }
+
+    .text p{
+        font-size: 15px;
+        width: fit-content;
+    }
+
+    .content{
+        /* background: linear-gradient(68deg, #757e8e 50%,  #b0bdcb 50%); */
+        background: aliceblue;
+    }
+}

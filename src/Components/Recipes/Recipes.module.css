@@ -1,0 +1,138 @@
+.overall{
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(110deg, rgb(167, 174, 171) 60%, rgb(130, 135, 133) 50%); */
+    background: radial-gradient(657px 657px at 10% 90%,#0f1726 0,#04193900 40%),radial-gradient(642px 642px at 82% 115%,#0c1425 0,#071627 25%),linear-gradient(-60deg,#021d44 7.43%,#0d2348 94.82%);
+    padding-top: 10px;
+}
+.overall h1{
+    font-size: 3em;
+    background: linear-gradient(45deg, #ffffff, #767670 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.outer{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: monospace;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstbox{
+    height: 500px;
+    width: 400px;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstbox img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 3px 3px 3px black;
+}
+
+
+.secondbox{
+    height: 500px;
+    width: 400px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondbox img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 3px 3px 3px black;
+}
+
+.lastbox{
+    height: 500px;
+    width: 400px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lastbox img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 3px 3px 3px black;
+}
+
+.heading{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+
+.text{
+    font-size: 20px;
+    color: rgb(184, 190, 182);
+}
+
+@media screen and (max-width: 480px) {
+    .overall h1{
+        font-size: 3em;
+    }
+    
+    
+    .firstbox{
+        height: 500px;
+        width: 400px;
+        padding-right: 10%;
+    }
+    
+    .firstbox img{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px 0 20px 0;
+        box-shadow: 3px 3px 3px black;
+    }
+    
+    
+    .secondbox{
+        height: 500px;
+        width: 400px;
+        padding-right: 8%;
+    }
+    
+    .secondbox img{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .lastbox{
+        height: 500px;
+        width: 400px;
+        padding-right: 8%;
+    }
+    
+    .lastbox img{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .heading{
+        font-size: 20px;
+    }
+    
+    .text{
+        font-size: 15px;
+    }
+}

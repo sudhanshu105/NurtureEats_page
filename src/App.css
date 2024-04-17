@@ -1,0 +1,15 @@
+
+.outerbox{
+  background-color: aliceblue;
+}
+
+h1{
+  color: rgb(0, 0, 0);
+}
+
+
+@media screen and (max-width: 576px) {
+  .body {
+      max-width: 100%;
+  }
+}

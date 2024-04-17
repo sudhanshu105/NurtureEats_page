@@ -1,0 +1,227 @@
+.overall{
+  background: radial-gradient(657px 657px at 10% 90% ,#76787c 0,rgb(170, 173, 178)40%),radial-gradient(642px 642px at 82% 115%,#0c1425 0,#071627 25%),linear-gradient(-60deg,#021d44 7.43%,#0d2348 94.82%);
+}
+
+.contactme {
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contactme h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contactme p {
+    margin-bottom: 20px;
+  }
+  
+  .contactme form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .contactme form label {
+    margin-bottom: 5px;
+  }
+  
+  .contactme form input,
+  .contactme form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .contactme form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contactme .companyinfo {
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .contactme .companyinfo h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: 10px;
+    color: #000000;
+    text-shadow: 1px 1px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    /* 1px 13px 100px rgba(0, 0, 0, 0.4); */
+  }
+  
+  .contactme .companyinfo p {
+    margin-bottom: 15px;
+  }
+
+  iframe{
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+
+  .mapandcont{
+    display: flex;
+    margin-left: 10%;
+    filter: drop-shadow(1px 1px 5px rgb(117, 116, 116));
+  }
+
+  .contactsec{
+    border: 1px solid #ccc;
+    background: radial-gradient(657px 657px at 10% 90%,#0f1726 0,#204228 40%),radial-gradient(642px 642px at 82% 115%,#0c1425 0,#071627 25%),linear-gradient(-60deg,#021d44 7.43%,#0d2348 94.82%);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 4px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    color: white;
+  }
+  
+  .contactsec h1{
+    text-align: center;
+    color: white;
+  }
+
+  .contactsec form {
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .contactsec form label {
+    margin-bottom: 5px;
+  }
+  
+  .contactsec form input,
+  .contactsec form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .contactsec form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .successMessage{
+    background-color: #4caf50; 
+    color: #fff; 
+    padding: 15px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    text-align: center;
+  }
+
+  .rule{
+    border: 2px solid black;
+    filter: drop-shadow(5px 5px 5px black);
+  }
+
+  .companyinfo a{
+    text-decoration: none;
+    color: rgb(111, 38, 38)00;  
+}
+
+textarea{
+  resize: none;
+}
+
+@media screen and (max-width: 480px) {
+  .mapandcont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1%;
+    row-gap: 10px;
+  }
+
+  iframe{
+    width:300px;
+    height:300px; 
+  }
+
+  .contactsec{
+    margin-left: 0;
+    margin-bottom: 5%;
+    color: white;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    margin-right: 1%;
+  }
+  
+  .contactsec h1{
+    text-align: center;
+    color: white;
+  }
+
+  .contactsec form {
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .contactsec form label {
+    margin-bottom: 5px;
+  }
+  
+  .contactsec form input,
+  .contactsec form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .contactsec form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .successMessage{
+    background-color: #4caf50; 
+    color: #fff; 
+    padding: 15px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    text-align: center;
+  }
+  
+  .contactme .companyinfo h2 {
+    font-size: 20px;
+    font-weight: 10px;
+  }
+  
+  .contactme .companyinfo p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,229 @@
+.firstbox{
+    margin-top: 0px;
+    margin: 0 auto; 
+    /* background-color: rgb(225, 234, 246); */
+    background: linear-gradient(110deg, #b0bdcb 50%, #757e8e 50%);
+
+}
+
+.content{
+    /* color: brown; */
+    padding-top: 4%;
+    padding-bottom: 4%;
+    mix-blend-mode:inherit;
+}
+
+.health{
+    height: fit-content;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    
+}
+
+.headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline h3{
+    background: linear-gradient(45deg, #502c04, #0b0652);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.headline p{
+    font-size: 20px;
+}
+
+.maincontent{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0;
+}
+
+.firstText{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding-top: 5%;
+    /* font-family: monospace; */
+}
+.image{
+    height: 400px;
+    width: 320px;
+    margin-left: 50px;
+    margin-right: 50px;
+    object-fit: cover;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid rgb(189, 186, 186);
+    border-radius: 20px 0 20px 0  ;
+}
+
+.lastText{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding-top: 5%;
+    /* font-family: monospace; */
+}
+
+.heading{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.bottomtext{
+    padding-top: 8%;
+}
+
+.productsinfo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    column-gap: 5%;
+}
+
+.tiles{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.tiles button{
+    width: fit-content;
+    background-color: #0e2407;
+    color: white;
+    border-radius: 3px;
+}
+
+.tiles img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+   
+}
+
+.whatsappButton{
+    background-color: #0e2407;
+    color: white;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.Whatsapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding-bottom: 5%;
+}
+@media screen and (max-width: 480px){
+
+    .firstbox{
+        margin-top: 0px;
+        margin: 0 auto; 
+        /* background: radial-gradient(657px 657px at 10% 90%,#1a57ba 0,#1b293d00 40%),radial-gradient(642px 642px at 82% 115%,#637cb2 0,#9eafc3 25%),linear-gradient(-60deg,#7196cb 7.43%,#6080b7 94.82%); */
+        background: aliceblue;
+    
+    }
+
+    .productsinfo{
+        max-width: 100%;
+    }
+    .tiles{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .tiles img{
+        height: 150px;
+        width: 150px;
+    }
+
+    .headline h3{
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .tiles p{
+        font-size: 15px;
+    }
+    
+    .maincontent{
+        display: flex;
+        flex-direction: column;
+        column-gap: 50px;
+    }
+    
+
+    .maincontent p{
+        padding-left: 10%;
+        font-size: 15px;
+    }
+
+    
+    .firstText{
+        max-width: fit-content;
+    }
+    .image{
+        height: 240px;
+        width: 220px;
+        margin: auto;
+        object-fit: cover;
+    }
+
+    .firstText{
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        padding-top: 5%;
+        /* font-family: monospace; */
+    }
+    
+    .image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border: 1px solid rgb(189, 186, 186);
+        border-radius: 20px 0 20px 0  ;
+    }
+    
+    .lastText{
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        padding-top: 5%;
+        /* font-family: monospace; */
+    }
+    
+    .heading{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    .bottomtext{
+        padding-top: 8%;
+    }
+    
+}

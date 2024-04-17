@@ -1,0 +1,13 @@
+body{
+    background-image: url("../../assets/Images/greyback.jpg");
+    background-size:cover;
+}
+.firstbox{
+    margin-top: 0px;
+    margin: 0 auto;
+}
+
+.content{
+    color: brown;
+    padding-top: 4%;
+}
