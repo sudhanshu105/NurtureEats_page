@@ -6,7 +6,7 @@ import fronthd from '../../assets/Images/FrontBarley.png';
 import backinfo from '../../assets/Images/backinfo.webp';
 import MultigrainFront from '../../assets/Images/MultiGrain_front.png';
 
-
+import { Link } from 'react-router-dom';
   
 
 function Products() {
@@ -35,12 +35,12 @@ function Products() {
             {/* <img src={images[currentSlide]} alt={`Slide ${currentSlide + 1}`} /> */}
             <img src={fronthd} />
               <p>Product discription</p>
-              <a href="" ><button>Buy Now</button></a>
+              <a href="https://amzn.in/d/f8Z4dUI" ><button>Buy Now</button></a>
               
             </div>
             <div className={css.tiles}>
-              <img src={MultigrainFront} />
-              <p>Product discription</p>
+            <Link to= 'MultigrainInfo'><img src={MultigrainFront} />
+              <p>Product discription</p></Link>
               <a href="https://amzn.in/d/hhqlRTL" >
               <button>Buy now</button></a>
             </div>
@@ -48,8 +48,8 @@ function Products() {
             
           </div>
           <div className={css.Whatsapp}>
-            Facing Any Issue Ordering
-          <a  href="https://api.whatsapp.com/send?phone=6394524392" target='_blank'>
+            Facing Any Issue
+          <a  href="https://api.whatsapp.com/send?phone=9650169402" target='_blank'>
               <button className={css.whatsappButton}>Contact us on Whatsapp</button></a>
               </div>
           <div className={css.maincontent}>

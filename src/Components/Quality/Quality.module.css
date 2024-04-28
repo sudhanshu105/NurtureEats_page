@@ -8,6 +8,49 @@ body{
 }
 
 .content{
-    color: brown;
     padding-top: 4%;
+}
+
+.heading1{
+    color: orange;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+.heading2{
+    color: orange;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+.heading3{
+    color: orange;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+.heading4{
+    color: orange;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+.heading1{
+    color: orange;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+.heading1{
+    color: orange;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.para1{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
 }

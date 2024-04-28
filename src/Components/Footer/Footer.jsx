@@ -20,7 +20,7 @@ const Footer = () => {
                     <ul className={css.enquiry_ul}>
                         <li className={css.enquiry_li}>
                             <img className={css.phone} src={Call} alt="" />
-                            <a  href="https://api.whatsapp.com/send?phone=6394524392" target='_blank'>
+                            <a  href="https://api.whatsapp.com/send?phone=9650169402" target='_blank'>
                             <h3 >+91 9650169402</h3> </a>
                         </li>
                         <li className={css.enquiry_li}>

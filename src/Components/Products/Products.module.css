@@ -112,9 +112,40 @@
 
 .tiles button{
     width: fit-content;
-    background-color: #0e2407;
+    /* background-color: #0e2407;
     color: white;
-    border-radius: 3px;
+    border-radius: 3px; */
+    cursor: pointer;
+
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+.tiles button:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
 }
 
 .tiles img{
@@ -124,11 +155,51 @@
    
 }
 
+.tiles a {
+    color: inherit; /* Inherit color from parent */
+    text-decoration: none; /* Remove underline */
+}
+
+.tiles p{
+    text-align: center;
+}
 .whatsappButton{
-    background-color: #0e2407;
-    color: white;
-    padding: 3px;
-    border-radius: 2px;
+    /* background-color: #0e2407;
+    color: white; */
+    /* padding: 3px;
+    border-radius: 2px; */
+    cursor: pointer;
+
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.whatsappButton:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .whatsappButton {
+    padding: 10px 30px;
+  }
 }
 
 .Whatsapp{
@@ -224,6 +295,12 @@
     
     .bottomtext{
         padding-top: 8%;
+    }
+
+    .tiles p{
+        text-align: center;
+        margin-left: 10%;
+        align-items: center;
     }
     
 }
