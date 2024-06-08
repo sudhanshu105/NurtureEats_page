@@ -1,14 +1,14 @@
 import React, {useState,useEffect} from 'react';
-import css from './ProductsInfo.module.css';
-import image1 from '../../assets/Images/MultiGrain_front.png';
-import image2 from '../../assets/Images/multi_back.jpg';
-import image3 from '../../assets/Images/MultiMultiGrain.jpg';
-import image4 from '../../assets/Images/multiGraininfo.jpg';
-import image5 from '../../assets/Images/multigrain_benefits.jpg';
-import image6 from '../../assets/Images/benefits.jpg';
+import css from './Barley.module.css';
+import image1 from '../../assets/Images/barley/front.jpg';
+import image2 from '../../assets/Images/barley/rear.jpg';
+import image3 from '../../assets/Images/barley/multiple.jpg';
+import image4 from '../../assets/Images/barley/keybenefits.jpg';
+import image5 from '../../assets/Images/barley/fivebenefits.jpg';
+import image6 from '../../assets/Images/barley/singlebanner.jpg';
 import whatsappIcon from '../../assets/Images/whatsapp.png';
 
-export const ProductsInfo = () => {
+export const Barley = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -49,7 +49,7 @@ export const ProductsInfo = () => {
         </div>
     </div>
     <div className={css.info}>
-        <h3>NurtureEats Premium Multigrain Flour/Atta| Superfood Solution| Soft Fluffy Rotis | Nutrients Powerhouse| High Fiber| 55% Premium Sharbati Wheat| 45% Premium Best Grade Grains |1000 gms</h3>
+        <h3>NurtureEats Premium Barley Flour | Soft Fluffy Rotis | High In Protein and Fiber | Jau Atta | 100% Natural | 1000 g</h3>
 
         <div className={css.available}>
             Available Choices:
@@ -62,11 +62,11 @@ export const ProductsInfo = () => {
            </div>
         
         <p><h4>About this item</h4><ul>
-            <li >Premium Quality: NurtureEats Multigrain Flour is crafted from a meticulous blend of the finest grains directly sourced from dedicated farmers for peak quality.</li>
-            <li >Balanced Nutrition: With 55% high quality wheat and 45% select grains, this flour delivers a perfect balance of exceptional taste and nutrition in every us.</li>
-            <li >Committed to Purity: Crafted with a commitment to purity, this flour is free from additives and preservatives for a clean label you can feel good about.</li>
-            <li >Rich Nutrient Profile: The diverse grain composition provides a rich tapestry of vitamins, minerals, plant compounds and fiber to support your health and ellbeing.</li>
-            <li >Versatile Ingredient: Use this premium flour for baking breads, pastries or other recipes for a delicious taste the whole family will enjoy.</li></ul>        </p>
+            <li >Wholesome Ingredient: NurtureEats Premium Barley Flour is sourced from the finest barley grains and meticulously processed to retain its natural goodness, offering nutritional benefits.</li>
+            <li >Versatile Addition: This flour can be used in a variety of recipes to add flavor and nutrition, from baking to thickening sauces and more.</li>
+            <li >Retains Nutrients: The careful processing methods help keep the natural vitamins, minerals, fiber and antioxidants found in barley grains.</li>
+            <li >Satisfy Dietary Needs: Being gluten-free and high in nutrients like fiber, barley flour is suitable for various diets and health conscious cooking.</li>
+            <li >Exceptional Quality: Sourced and produced to the highest standards, this barley flour promises superior taste and texture in any dish.</li></ul>        </p>
 
             <a href="">
                 <button>

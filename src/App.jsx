@@ -19,6 +19,7 @@ import Health from './Components/Health/Health';
 import Recipes from './Components/Recipes/Recipes';
 import Contact from './Components/ContactUs/Contact';
 import { ProductsInfo } from './Components/ProductsInfo/ProductsInfo';
+import { Barley } from './Components/BarleyInfo/Barley';
 
 function App() {
   
@@ -34,6 +35,7 @@ function App() {
         <Route exact  path="/products" element={<><Navbar/><Products/><Choices /><Footer/></>} />
         <Route exact  path="/temp" element={<><Navbar/><Products/><ProductsInfo /><Footer/></>} />
         <Route exact  path="/MultigrainInfo" element={<><Navbar/><ProductsInfo /><Footer/></>} />
+        <Route exact  path="/BarleyInfo" element={<><Navbar/><Barley /><Footer/></>} />
         <Route exact  path="/faq" element={<><Navbar/><Faq /><Footer/></>} />
       </Routes>
     </Router>

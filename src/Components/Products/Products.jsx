@@ -33,14 +33,14 @@ function Products() {
             <div className={css.tiles}>
     
             {/* <img src={images[currentSlide]} alt={`Slide ${currentSlide + 1}`} /> */}
-            <img src={fronthd} />
-              <p>Product discription</p>
+            <Link to= '/BarleyInfo'><img src={fronthd} />
+              <p>View Product discription</p> </Link>
               <a href="https://amzn.in/d/f8Z4dUI" ><button>Buy Now</button></a>
               
             </div>
             <div className={css.tiles}>
-            <Link to= 'MultigrainInfo'><img src={MultigrainFront} />
-              <p>Product discription</p></Link>
+            <Link to= '/MultigrainInfo'><img src={MultigrainFront} />
+              <p>View Product discription</p></Link>
               <a href="https://amzn.in/d/hhqlRTL" >
               <button>Buy now</button></a>
             </div>

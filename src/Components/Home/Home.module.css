@@ -1,6 +1,5 @@
 .outerbox{
     background: radial-gradient(657px 657px at 30% 90%,#8e97a8 0,#8e97a8 40%),radial-gradient(642px 642px at 82% 115%,#757e8e 0,#757e8e 25%),linear-gradient(-60deg,#a3a9b0 7.43%,#000000 94.82%),radial-gradient(657px 657px at 50% 100%,#07348e 0,#03ffd16e 40%);
-    
 }
 .grid_container {
     display: flex;
