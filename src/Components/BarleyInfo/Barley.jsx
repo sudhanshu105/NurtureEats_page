@@ -58,8 +58,11 @@ export const Barley = () => {
         </div>
 
            <div className={css.MRP}>
-            MRP (Rs) : {price}
+            MRP (Rs) : {price} 
+            
            </div>
+
+           
         
         <p><h4>About this item</h4><ul>
             <li >Wholesome Ingredient: NurtureEats Premium Barley Flour is sourced from the finest barley grains and meticulously processed to retain its natural goodness, offering nutritional benefits.</li>
@@ -68,12 +71,16 @@ export const Barley = () => {
             <li >Satisfy Dietary Needs: Being gluten-free and high in nutrients like fiber, barley flour is suitable for various diets and health conscious cooking.</li>
             <li >Exceptional Quality: Sourced and produced to the highest standards, this barley flour promises superior taste and texture in any dish.</li></ul>        </p>
 
+            <div className={css.bottombox}>
+            <a href="https://amzn.in/d/f8Z4dUI" >
+              <button className={css.buybutton}>Buy now</button></a>
             <a href="">
+                
                 <button>
                 <span className={css.whatsappbutton}>
                     <img src={whatsappIcon} /> Contact Seller  </span>
                 </button>
-            </a>
+            </a> </div>
     </div>
     </div>
   )

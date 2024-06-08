@@ -68,12 +68,16 @@ export const ProductsInfo = () => {
             <li >Rich Nutrient Profile: The diverse grain composition provides a rich tapestry of vitamins, minerals, plant compounds and fiber to support your health and ellbeing.</li>
             <li >Versatile Ingredient: Use this premium flour for baking breads, pastries or other recipes for a delicious taste the whole family will enjoy.</li></ul>        </p>
 
+            <div className={css.bottombox}>
+            <a href="https://amzn.in/d/hhqlRTL" >
+              <button className={css.buybutton}>Buy now</button></a>
             <a href="">
+                
                 <button>
                 <span className={css.whatsappbutton}>
                     <img src={whatsappIcon} /> Contact Seller  </span>
                 </button>
-            </a>
+            </a> </div>
     </div>
     </div>
   )
